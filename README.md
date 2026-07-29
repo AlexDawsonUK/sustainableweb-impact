@@ -17,7 +17,7 @@ This document is reachable via GitHub pages and can be queried using JavaScript 
 
 **WSG Impact** (*impact.json*)
 ```js
-category[1].guidelines[0].impactRatings[0].people = "Indeterminate"
+category[1].guidelines[0].impactRatings.people = "Indeterminate"
 ```
 
 One method of reaching the API could be through code similar to the below (customize to your requirements):
@@ -26,5 +26,5 @@ One method of reaching the API could be through code similar to the below (custo
 fetch("https://w3c.github.io/sustainableweb-impact/impact.json")
   .then((res) => res.json())
   .then((data) => {
-    console.log(`The First UX Guideline Title is ${data.category[1].guidelines[0].guideline}`); });
+    console.log(`The First UX Guideline URL is ${data.category[1].guidelines[0].id}`); });
 ```
