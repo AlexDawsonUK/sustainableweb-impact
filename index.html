@@ -26,12 +26,13 @@
 				const ddToRemove = document.querySelector('dd[data-editor-id="49702"]');
 				if (ddToRemove) { ddToRemove.remove(); }
 				document.querySelectorAll('.head dt').forEach(dt => {
+					if (dt.textContent.trim() === 'Editors:') {
 						const htmlToInsert = `
 						<dt>Lead Editor:</dt>
 						<dd class="editor p-author h-card vcard" data-editor-id="49702">
 								<a class="u-url url p-name fn" href="https://alexanderdawson.com/">Alexander Dawson</a> (<span class="p-org org h-org">Invited Expert</span>)
 						</dd>`;
-						dt.insertAdjacentHTML('beforebegin', htmlToInsert); } ); }
+						dt.insertAdjacentHTML('beforebegin', htmlToInsert); } } ); }
 		</script>
 		<script class="remove">
 		var respecConfig = {
