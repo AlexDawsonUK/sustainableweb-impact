@@ -26,14 +26,12 @@
 				const ddToRemove = document.querySelector('dd[data-editor-id="49702"]');
 				if (ddToRemove) { ddToRemove.remove(); }
 				document.querySelectorAll('.head dt').forEach(dt => {
-					if (dt.textContent.trim() === 'Editors:') {
-						dt.textContent = "Editor:";
 						const htmlToInsert = `
 						<dt>Lead Editor:</dt>
 						<dd class="editor p-author h-card vcard" data-editor-id="49702">
 								<a class="u-url url p-name fn" href="https://alexanderdawson.com/">Alexander Dawson</a> (<span class="p-org org h-org">Invited Expert</span>)
 						</dd>`;
-						dt.insertAdjacentHTML('beforebegin', htmlToInsert); } } ); }
+						dt.insertAdjacentHTML('beforebegin', htmlToInsert); } ); }
 		</script>
 		<script class="remove">
 		var respecConfig = {
@@ -45,16 +43,16 @@
 					w3cid: 49702,
 				},
 				{
-					name: "Rose Newell",
-					url: "https://rosenewell.co.uk/",
-					company: "Invited Expert",
-					w3cid: 164418,
-				},
-				{
 					name: "Fershad Irani",
 					url: "https://fershad.com/",
 					company: "Invited Expert",
 					w3cid: 140066,
+				},
+				{
+					name: "Rose Newell",
+					url: "https://rosenewell.co.uk/",
+					company: "Invited Expert",
+					w3cid: 164418,
 				},
 			],
 			edDraftURI: "https://w3c.github.io/sustainableweb-impact",
