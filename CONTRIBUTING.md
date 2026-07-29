@@ -18,7 +18,7 @@ We welcome contributions and understand that this may pose difficulties for thos
 The structure of the repository has been created to ensure ease of maintenance. The base directory contains living editions of the [WSG Impact Measurement](https://w3c.github.io/sustainableweb-impact/) and [Impact JSON API](https://w3c.github.io/sustainableweb-impact/impact.json).
 
 ```
-impact.html		- WSG Impact Measurement
+index.html		- WSG Impact Measurement
 impact.json		- WSG Impact JSON API
 ```
 
