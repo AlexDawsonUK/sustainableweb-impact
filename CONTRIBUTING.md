@@ -1,6 +1,6 @@
 # Contributing
 
-This repository is managed by the [W3C Sustainable Web Interest Group](https://www.w3.org/groups/ig/sustainableweb/) and is being used to develop content for the [Web Sustainability Guidelines (WSG) Impact Measurement](https://w3c.github.io/sustainableweb-impact/).
+This repository is managed by the [W3C Sustainable Web Interest Group](https://www.w3.org/groups/ig/sustainableweb/) and is being used to develop content for the [Web Sustainability Guidelines (WSG) Impact Ratings](https://w3c.github.io/sustainableweb-impact/).
 
 Contributions to this repository are intended to become part of Interest Group documents governed by the [Software and Document License](https://www.w3.org/copyright/software-license/). By committing here, you agree to that licensing of your contributions.
 
@@ -15,10 +15,10 @@ We welcome contributions and understand that this may pose difficulties for thos
 
 ## File Structure
 
-The structure of the repository has been created to ensure ease of maintenance. The base directory contains living editions of the [WSG Impact Measurement](https://w3c.github.io/sustainableweb-impact/) and [Impact JSON API](https://w3c.github.io/sustainableweb-impact/impact.json).
+The structure of the repository has been created to ensure ease of maintenance. The base directory contains living editions of the [WSG Impact Ratings](https://w3c.github.io/sustainableweb-impact/) and [Impact JSON API](https://w3c.github.io/sustainableweb-impact/impact.json).
 
 ```
-index.html		- WSG Impact Measurement
+index.html		- WSG Impact Ratings
 impact.json		- WSG Impact JSON API
 ```
 
