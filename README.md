@@ -1,5 +1,5 @@
-# Web Sustainability Guidelines (WSG) Impact Measurement
-Welcome to the repository of the [Web Sustainability Guidelines (WSG) Impact Measurement](https://w3c.github.io/sustainableweb-impact/) framework.
+# Web Sustainability Guidelines (WSG) Impact Ratings
+Welcome to the repository of the [Web Sustainability Guidelines (WSG) Impact Ratings](https://w3c.github.io/sustainableweb-impact/) framework.
 
 If you would like to learn more about us and how to participate in this project, please check the readme in the [W3C Sustainable Web Interest Group](https://github.com/w3c/sustainableweb-ig) repository.
 
